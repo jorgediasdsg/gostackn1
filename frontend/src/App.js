@@ -23,10 +23,18 @@ function App () {
         })
     }, []);
 
-    function handleAddProject(){
+    async function handleAddProject(){
          //Conceito de imutabilidade
         // Spread tras tudo.
-        setProjects([...projects, `Novo projeto ${Date.now()}`])
+        // setProjects([...projects, `Novo projeto ${Date.now()}`])
+        const response = await api.post('projects', {
+            title: `Novo projeto ${Date.now()}`,
+            owner: `User ${Date.now()}`
+        })
+
+        const project = response.data;
+
+        setProjects([...projects, project]);
     }
 
     return (
