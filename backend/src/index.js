@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4');
 const { request } = require('express');
 
+
+
 const app = express();
 
+app.use(cors()); // Aqui coloca a origem das requisições.
 app.use(express.json());
 
 //  Métodos HTTP
