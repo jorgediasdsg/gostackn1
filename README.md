@@ -11,9 +11,11 @@
 <li>Noções de frontend com ReactJS.</li>
 <li>Noções de mobile com React Native.</li>
 <li>Noções de uso de Typescript.</li>
-<ul>
+</ul>
   
 #### Como usar:
-Backend com NodeJS: Na pasta backend digite o comando `yarn` para instalar as dependencias e depois o comando `yarn run dev` para colocar no ar.
-FrontEnd com React: Na pasta frontend digite o comando `yarn` para instalar as dependencias e depois o comando `yarn run dev` para colocar no ar e acesse http://localhost:8080/.
-Mobile com React Native: Na pasta mobile digite o comando `yarn` para instalar as dependencias e depois use 2 terminais, um digite `react-native start` e no outro `react-native run-android`, talvez para funcionar a conexão com o emulador precisa ajustar as rotas entre as portas, use o comando `adb reverse tcp:3333 tcp:3333` para isso.
+<ul>
+<li><strong>Backend com NodeJS:</strong> Na pasta backend digite o comando `yarn` para instalar as dependencias e depois o comando `yarn run dev` para colocar no ar.</li>
+<li>FrontEnd com React: Na pasta frontend digite o comando `yarn` para instalar as dependencias e depois o comando `yarn run dev` para colocar no ar e acesse http://localhost:8080/.</li>
+<li>Mobile com React Native: Na pasta mobile digite o comando `yarn` para instalar as dependencias e depois use 2 terminais, um digite `react-native start` e no outro `react-native run-android`, talvez para funcionar a conexão com o emulador precisa ajustar as rotas entre as portas, use o comando `adb reverse tcp:3333 tcp:3333` para isso.</li>
+</ul>
