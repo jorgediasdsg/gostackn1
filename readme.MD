@@ -17,5 +17,5 @@
 <ul>
 <li><strong>Backend com NodeJS:</strong> Na pasta backend digite o comando <code>yarn</code> para instalar as dependencias e depois o comando `yarn run dev` para colocar no ar.</li>
 <li><strong>FrontEnd com React:</strong> Na pasta frontend digite o comando <code>yarn</code> para instalar as dependencias e depois o comando <code>yarn run dev</code> para colocar no ar e acesse http://localhost:8080/.</li>
-<li><strong>Mobile com React Native:</strong> Na pasta mobile digite o comando <code>yarn</code> para instalar as dependencias e depois use 2 terminais, um digite <code>react-native start</code> e no outro <code>react-native run-android<code>, talvez para funcionar a conexão com o emulador precisa ajustar as rotas entre as portas, use o comando <code>adb reverse tcp:3333 tcp:3333</code> para isso.</li>
+<li><strong>Mobile com React Native:</strong> Na pasta mobile digite o comando <code>yarn</code> para instalar as dependencias e depois use 2 terminais, um digite <code>react-native start</code> e no outro <code>react-native run-android</code>, talvez para funcionar a conexão com o emulador precisa ajustar as rotas entre as portas, use o comando <code>adb reverse tcp:3333 tcp:3333</code> para isso.</li>
 </ul>
